@@ -21,7 +21,7 @@ export default function BackupPage() {
         {/* Supabase Automatic Backup */}
         <div className="card" style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
-            <div style={{ width: 42, height: 42, background: "rgba(16,185,129,0.1)", borderRadius: 10, display: "flex", alignItems: "center", justifyC: "center", justifyContent: "center" }}>
+            <div style={{ width: 42, height: 42, background: "rgba(16,185,129,0.1)", borderRadius: 10, display: "flex", alignItems: "center", justifyContent: "center" }}>
               <ShieldCheck size={20} color="var(--success)" />
             </div>
             <div>
@@ -40,7 +40,7 @@ export default function BackupPage() {
         {/* Manual Export via CLI */}
         <div className="card" style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
-            <div style={{ width: 42, height: 42, background: "rgba(79, 70, 229, 0.1)", borderRadius: 10, display: "flex", alignItems: "center", justifyC: "center", justifyContent: "center" }}>
+            <div style={{ width: 42, height: 42, background: "rgba(79, 70, 229, 0.1)", borderRadius: 10, display: "flex", alignItems: "center", justifyContent: "center" }}>
               <Download size={20} color="var(--primary)" />
             </div>
             <div>
@@ -62,7 +62,7 @@ export default function BackupPage() {
         {/* Manual Restore */}
         <div className="card" style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
-            <div style={{ width: 42, height: 42, background: "rgba(245, 158, 11, 0.1)", borderRadius: 10, display: "flex", alignItems: "center", justifyC: "center", justifyContent: "center" }}>
+            <div style={{ width: 42, height: 42, background: "rgba(245, 158, 11, 0.1)", borderRadius: 10, display: "flex", alignItems: "center", justifyContent: "center" }}>
               <RefreshCw size={20} color="var(--accent)" />
             </div>
             <div>
